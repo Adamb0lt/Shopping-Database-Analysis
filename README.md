@@ -8,14 +8,15 @@ This project involves the analysis of consumer behavior and shopping habits usin
 
 - `table_creation.sql`: Script for creating tables and importing data.
 - `business_questions.sql`: Script for answering business questions.
-- `shopping_trends.csv`: Sample CSV file with shopping data (Note: The file used with the database is "shopping_trends.csv" not "shopping_trends_updated.csv" included in the Kaggle download).
+- `shopping_trends.csv`: CSV file with shopping data (Note: The file used with the database is "shopping_trends.csv" not "shopping_trends_updated.csv" included in the Kaggle download).
 
 ## How to Use
 
 1. **Setting up the Database:**
-   - Execute `table_creation.sql` in an SQLite environment to create tables and import data.
+   - Create SQLite database
+   - Execute `table_creation.sql` in an SQLite environment to create tables and import data for the database.
 
-2. **Answering Business Questions:**
+3. **Answering Business Questions:**
    - Execute `business_questions.sql` to run SQL queries answering specific business questions.
    - View the results directly or uncomment specific sections to view intermediate results.
 
